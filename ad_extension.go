@@ -41,6 +41,14 @@ type AdExtensionEditorialReason struct {
 	Term               string
 }
 
+// Operand: "BingAds_Grouping","BingAds_Label","Brand","Condition","ProductType","SKU","Id"
+// Attribute:
+//   "Condition" -> "New","Used","Refurbished","Remanufactured","Collectable","Open Box"
+type ProductCondition struct {
+	Attribute string `xml:"https://adcenter.microsoft.com/v8 Attribute"`
+	Operand   string `xml:"https://adcenter.microsoft.com/v8 Operand"`
+}
+
 // Status: "Active", "Deleted"
 // BusinessGeoCodeStatus: "Pending", "Complete", "Invalid", "Failed"
 type AdExtension struct {
