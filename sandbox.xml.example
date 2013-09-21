@@ -1,0 +1,7 @@
+<!-- signup at https://secure.sandbox.bingads.microsoft.com/ !>
+<SandboxAuth>
+	<AccountId><!- YOUR SANDBOX ACCOUNT ID (numeric) !></AccountId>
+	<CustomerId><!- YOUR SANDBOX CUSTOMER ID (numeric) !></CustomerId>
+	<UserName><!- YOUR SANDBOX USERNAME !></UserName>
+	<Password><!- YOUR SANDBOX PASSWORD !></Password>
+</SandboxAuth>
